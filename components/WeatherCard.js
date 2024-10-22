@@ -1,6 +1,6 @@
 import React from "react";
 import sunny from "../assets/Sunny.svg"
-
+import {cloudy, partlyCloudy, rainy} from "../assets"
 
 function WeatherCard(props) {
   const {city, temperature, forecast} = props.data
